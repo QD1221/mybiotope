@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "389704736879",
+    "project_id": "my-biotope",
+    "storage_bucket": "my-biotope.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389704736879:android:d6f7e8052fe833702bed9a",
+        "android_client_info": {
+          "package_name": "com.example.mybiotope"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389704736879-p0fndi1p6q79krhkg1rk5vdcruvd522e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mybiotope",
+            "certificate_hash": "edd571ee7c1742212d20102125f4396e1d775acf"
+          }
+        },
+        {
+          "client_id": "389704736879-sh8duu6eckg81hgur4616qvnoufemvk6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx4TGeXGErLddBCClR6ii7vAv_tGixTUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389704736879-sh8duu6eckg81hgur4616qvnoufemvk6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/SliderDots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_vertical"
+        android:gravity="center"
+        android:layout_marginBottom="146dp"
+        android:orientation="horizontal" />
+
+    <Button
+        android:id="@+id/bbatdau"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/rectangle_2_16"
+        android:text="BẮT ĐẦU"
+        android:textColor="#ffffff"
+        android:textSize="14sp">
+
+    </Button>
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/liv"
+        android:background="@color/white"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:indicatorName="BallPulseIndicator"
+        app:indicatorColor="@color/green"
+        android:layout_marginBottom="132dp"
+        android:layout_gravity="bottom|center"
+        android:visibility="invisible"/>
+
+</FrameLayout>

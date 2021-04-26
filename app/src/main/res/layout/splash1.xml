@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="48dp"
+        android:paddingEnd="48dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="255dp"
+            android:layout_height="255dp"
+            android:layout_marginTop="75dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/mxhcaycanh"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#36455a"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="22dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/mxhcaycanh2"
+            android:textStyle="normal"
+            android:textAlignment="center"
+            android:textSize="13sp"
+            android:textColor="#6a6f7d"
+            android:layout_gravity="center_horizontal"
+            />
+    </LinearLayout>
+
+
+</FrameLayout>

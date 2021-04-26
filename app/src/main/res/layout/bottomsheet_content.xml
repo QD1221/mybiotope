@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="85dp"
+    android:id="@+id/bottomSheet4"
+    android:background="@android:color/transparent"
+    android:backgroundTint="@color/daynight_bgColor"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:paddingBottom="12dp"
+        android:background="@drawable/rectangle_white_top_cure"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="54dp"
+            android:layout_height="4dp"
+            android:background="#cccccc"
+            android:layout_gravity="center"
+            android:layout_marginTop="11.2dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="15dp"
+            android:paddingTop="18dp"
+            android:paddingEnd="15dp"
+            android:paddingBottom="18dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:includeFontPadding="false"
+                android:text="enter_address_details"
+                android:textColor="@color/daynight_textColor"
+                android:textSize="21.7sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#50ACACAC" />
+
+        <!--Inputtext layout code is here:-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="15dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edt_bg"
+                    android:drawablePadding="10dp"
+                    android:ems="20"
+                    android:hint="your_location"
+                    android:inputType="text"
+                    android:letterSpacing="0.033"
+                    android:maxLength="20"
+                    android:maxLines="1"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="20dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray"
+                    android:textSize="15sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|end"
+                android:text="change"
+                android:textColor="@color/red"
+                android:textSize="12.7sp" />
+
+        </FrameLayout>
+
+        <!--Inputtext layout code is here:-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/edt_bg"
+                android:drawablePadding="10dp"
+                android:hint="complete_address"
+                android:inputType="text"
+                android:letterSpacing="0.033"
+                android:maxLines="1"
+                android:paddingTop="12dp"
+                android:paddingBottom="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="16.7dp"
+            android:layout_marginTop="26.7dp"
+            android:layout_marginEnd="16.7dp"
+            android:background="@drawable/dark_green_rect"
+            android:includeFontPadding="false"
+            android:text="save address"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

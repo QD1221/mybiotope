@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">MyBiotope</string>
+    <string name="enable">Enable</string>
+    <string name="chedo">CHẾ ĐỘ</string>
+    <string name="facebook_app_id">218337963407375</string>
+    <string name="fb_login_protocol_scheme">fb218337963407375</string>
+    <string name="phienban">Phiên bản</string>
+    <string name="dangtai">Đang tải…</string>
+    <string name="tencongty">QD</string>
+    <string name="email">Email</string>
+    <string name="matkhau">Mật khẩu</string>
+    <string name="dangnhap">Đăng nhập</string>
+    <string name="hoac">Hoặc</string>
+    <string name="dangnhapfb">Đăng nhập bằng Facebook</string>
+    <string name="dangnhapgg">Đăng nhập bằng Google</string>
+    <string name="quenmk">Quên mật khẩu?</string>
+    <string name="dky"><u>Đăng ký</u></string>
+    <string name="matkhau2">Nhập lại mật khẩu</string>
+    <string name="thongbaoloidk">Bạn chưa nhập </string>
+    <string name="thongbaonhaplaimk">Mật khẩu không khớp, vui lòng nhập lại</string>
+    <string name="thongbaodkythanhcong">Đăng ký tài khoản thành công</string>
+    <string name="thongbaodkythatbai">Đăng ký tài khoản thất bại</string>
+    <string name="dangxuly">Đang xử lý</string>
+    <string name="thongbaodnthatbai">Tài khoản không hợp lệ! </string>
+    <string name="khoiphucmk">Khôi phục mật khẩu</string>
+    <string name="chuoikhoiphucmk">Vui lòng nhập địa chỉ email vào khung bên dưới để tiến hành khôi phục mật khẩu</string>
+    <string name="gui">Gửi</string>
+    <string name="kophaithanhvien">Chưa là thành viên?</string>
+    <string name="thongbaoemailkohople">Email không hợp lệ!</string>
+    <string name="thongbaoguiemailthanhcong">Đã gửi đường dẫn khôi phục mật khẩu đến email</string>
+
+    <string name="muabancaycanh">Mua bán cây cảnh</string>
+    <string name="muabancaycanh2">Sở hữu cây cảnh theo ý thích trở nên dễ dàng hơn bao giờ hết!</string>
+    <string name="mxhcaycanh">Mạng xã hội cây cảnh</string>
+    <string name="mxhcaycanh2">Sáng tạo nội dung, chia sẻ cảm xúc với cộng đồng người yêu cây cảnh </string>
+    <string name="kienthuccaycanh">Kiến thức cây cảnh</string>
+    <string name="kienthuccaycanh2">Thưởng thức các tác phẩm của nghệ nhân và tìm hiểu cách chăm sóc cây cảnh</string>
+
+    <string name="danhmuc">Danh mục</string>
+    <string name="dichvuphobien">Dịch vụ phổ biến</string>
+    <string name="baivietchonloc">Bài viết chọn lọc</string>
+    <string name="muasam">Mua sắm</string>
+    <string name="chamsoc">Chăm sóc</string>
+    <string name="timhieu">Tìm hiểu</string>
+    <string name="tacpham">Tác phẩm</string>
+    <string name="dichvu">Dịch vụ</string>
+    <string name="video">Video</string>
+    <string name="baiviet">Bài viết</string>
+    <string name="sukien">Sự kiện</string>
+
+    <string name="cuahang">Cửa hàng</string>
+    <string name="caytrongphong">Cây trong phòng</string>
+    <string name="sendacanh">Sen đá cảnh</string>
+    <string name="xuongrongcanh">Xương rồng cảnh</string>
+    <string name="caythuysinh">Cây thủy sinh</string>
+    <string name="xemthem">Xem thêm</string>
+
+    <string name="chedotoi">Chế độ tối</string>
+    <string name="quanlydiachi">Quản lý địa chỉ</string>
+    <string name="lienhe">Liên hệ</string>
+    <string name="chiase">Chia sẻ</string>
+    <string name="quanlythongbao">Quản lý thông báo</string>
+    <string name="dieukhoanvachinhsach">Điều khoản &amp; Chính sách</string>
+    <string name="dangxuat">Đăng xuất</string>
+    <string name="sua">Sửa</string>
+
+    <string name="thongbao">Thông báo</string>
+    <string name="tgianthongbao">10 phút trước</string>
+
+    <string name="ten">Tên</string>
+    <string name="sodienthoai">Số điện thoại</string>
+    <string name="capnhat">Cập nhật</string>
+
+    <string name="tieude">Tiêu đề</string>
+    <string name="noidung">Nội dung</string>
+    <string name="goi">Gọi</string>
+    <string name="lienhengay">Gọi ngay để nhận tư vấn</string>
+
+    <string name="policy1">
+        This following sets out the terms and conditions on which you may use the content on business-standard.com website, business-standard.com\'s mobile browser site, Business Standard instore Applications and other digital publishing services (www.smartinvestor.in, www.bshindi.com and www.bsmotoring,com) owned by Business Standard Private Limited, all the services herein will be referred to as Business Standard Content Services.</string>
+    <string name="_1_introduction">1) Introduction</string>
+    <string name="_2_registration_access_and_use">2) Registration Access and Use</string>
+    <string name="policy2">
+        We welcome users to register on our digital platforms. We offer the below mentioned registration services which may be subject to change in the future.</string>
+
+</resources>

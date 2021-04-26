@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/daynight_bgColor"
+    android:orientation="vertical"
+    tools:context=".SuaThongTinActivity">
+
+    <include layout="@layout/toolbar_subcategory" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/rivuser"
+            android:layout_width="98.3dp"
+            android:layout_height="98.3dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="23.3dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_launcher_background"
+            app:riv_border_color="#333333"
+            app:riv_border_width="0dip"
+            app:riv_corner_radius="10dp"
+            app:riv_mutate_background="true"
+            app:riv_oval="false"
+            app:riv_tile_mode="clamp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="14dp"
+            android:includeFontPadding="false"
+            android:text="@string/sua"
+            android:textColor="@color/red"
+            android:textSize="15sp" />
+        <!--Inputtext layout code is here:-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:background="@color/daynight_bgColor"
+            android:hint="@string/ten"
+            android:layout_marginTop="33.3dp"
+            android:layout_marginStart="16.7dp"
+            android:layout_marginEnd="16.7dp">
+            <EditText
+                android:id="@+id/etten"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableStart="@drawable/ic_user_name"
+                android:drawablePadding="10dp"
+                android:ems="20"
+                android:background="@drawable/edt_bg"
+                android:inputType="text"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:paddingStart="12dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:textColor="@color/daynight_textColor"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--Inputtext layout code is here:-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="@string/email"
+            android:layout_marginTop="40.3dp"
+            android:layout_marginEnd="16.7dp"
+            android:layout_marginStart="16.7dp">
+
+            <EditText
+                android:id="@+id/etmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_email"
+                android:paddingStart="12dp"
+                android:background="@drawable/edt_bg"
+                android:drawablePadding="10dp"
+                android:ems="20"
+                android:inputType="textEmailAddress"
+                android:maxLength="25"
+                android:maxLines="1"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:textColor="@color/daynight_textColor"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="40.3dp"
+            android:layout_marginEnd="16.7dp"
+            android:layout_marginStart="16.7dp"
+            android:layout_height="wrap_content">
+            <!--Inputtext layout code is here:-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="@string/sodienthoai">
+
+                <EditText
+                    android:id="@+id/etsdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableStart="@drawable/ic_mobile2"
+                    android:paddingStart="12dp"
+                    android:drawablePadding="10dp"
+                    android:background="@drawable/edt_bg"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:maxLines="1"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:textColor="@color/daynight_textColor"
+                    android:textColorHint="@color/gray"
+                    android:textSize="15sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sua"
+                android:textColor="@color/red"
+                android:textSize="15sp"
+                android:layout_marginEnd="5dp"
+                android:includeFontPadding="false"
+                android:layout_gravity="center|end"/>
+        </FrameLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16.7dp"
+        android:layout_marginEnd="16.7dp"
+        android:layout_marginBottom="36.3dp"
+        android:background="@drawable/dark_green_rect"
+        android:includeFontPadding="false"
+        android:text="@string/capnhat"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+</LinearLayout>
